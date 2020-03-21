@@ -1,0 +1,48 @@
+//config user detail
+add username - git config --global user.name "YOUR_USERNAME"
+
+verify username - git config --global user.name
+
+set your email -git config --global user.email "your_email_address@example.com"
+
+verify email -git config --global user.email
+check 
+your info -git config --global --list
+
+
+//initialize git
+initialize git - git init
+
+
+//clone a repository or project
+clone a repo - git clone repo_url(ssh or https)
+
+
+//move to another branch
+git checkout branchname
+
+
+//fetch the latest changes
+git pull origin branchname
+
+
+//create a new branch
+create branch - git checkout -b branchname
+
+
+//delete the created branch
+delete branch - git push origin --delete remoteBranchName
+
+
+add and commit - git add 
+
+git commit -m "COMMENT TO DESCRIBE THE INTENTION OF THE COMMIT"
+
+push in branch - git push origin 
+
+undo most resest commit  -git reset HEAD~1
+
+
+merge in branch -  git checkout  branchname 
+
+                   git merge master
