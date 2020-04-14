@@ -1,0 +1,23 @@
+{
+  "name": "data-structures",
+  "version": "1.0.0",
+  "description": "Implementation of various data structures",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "build":"tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srikanth-kandula/Data-structures.git"
+  },
+  "author": "Srikanth Kandula",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srikanth-kandula/Data-structures/issues"
+  },
+  "homepage": "https://github.com/srikanth-kandula/Data-structures#readme",
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  }
+}
